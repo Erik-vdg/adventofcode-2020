@@ -8,7 +8,7 @@ Advent Of Code 2020
 .. |Tests| image:: https://github.com/Erik-vdg/adventofcode-2020/workflows/Tests/badge.svg
    :target: https://github.com/Erik-vdg/adventofcode-2020/actions?workflow=Tests
    :alt: Tests
-.. |Codecov| image:: https://codecov.io/gh/Erik-vdg/adventofcode-2020/branch/master/graph/badge.svg
+.. |Codecov| image:: https://codecov.io/gh/Erik-vdg/adventofcode-2020/branch/main/graph/badge.svg?token=NUQYFY9JMS
    :target: https://codecov.io/gh/Erik-vdg/adventofcode-2020
    :alt: Codecov
 .. |pre-commit| image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
