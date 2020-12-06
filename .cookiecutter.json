@@ -1,0 +1,10 @@
+{
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "Erik van der Goetz",
+  "email": "erik.vandergoetz@gmail.com",
+  "friendly_name": "Advent Of Code 2020",
+  "github_user": "Erik-vdg",
+  "package_name": "adventofcode_2020",
+  "project_name": "adventofcode-2020",
+  "version": "0.0.0"
+}
