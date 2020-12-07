@@ -22,7 +22,7 @@ Advent Of Code 2020
 Features
 --------
 
-* Advent of Code 2020 - implemented through Day 0
+* Advent of Code 2020 - implemented through Day 2
 
 
 Requirements
