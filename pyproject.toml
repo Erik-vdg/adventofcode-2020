@@ -20,6 +20,7 @@ Changelog = "https://github.com/Erik-vdg/adventofcode-2020/releases"
 [tool.poetry.dependencies]
 python = "^3.6.1"
 click = "^7.0"
+attrs = "^20.3.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.1.2"
