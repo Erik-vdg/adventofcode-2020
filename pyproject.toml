@@ -43,6 +43,7 @@ pre-commit-hooks = "^3.3.0"
 Pygments = "^2.7.2"
 flake8-black = "^0.2.1"
 advent-of-code-data = "^0.9.3"
+rope = "^0.18.0"
 
 [tool.poetry.scripts]
 adventofcode-2020 = "adventofcode_2020.__main__:main"
