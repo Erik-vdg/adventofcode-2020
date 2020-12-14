@@ -1,10 +1,13 @@
 Advent Of Code 2020
 ===================
 
-|Tests| |Codecov|
+|Tests| |Codecov| |MyMachine|
 
 |pre-commit| |Black|
 
+.. |MyMachine| image:: https://cdn.jsdelivr.net/gh/nikku/works-on-my-machine@v0.2.0/badge.svg
+   :target: https://github.com/nikku/works-on-my-machine
+   :alt: Works on my Machine!
 .. |Tests| image:: https://github.com/Erik-vdg/adventofcode-2020/workflows/Tests/badge.svg
    :target: https://github.com/Erik-vdg/adventofcode-2020/actions?workflow=Tests
    :alt: Tests
@@ -22,7 +25,7 @@ Advent Of Code 2020
 Features
 --------
 
-* Advent of Code 2020 - implemented through Day 7
+* Advent of Code 2020 - implemented through Day 8
 
 
 Requirements
