@@ -1,5 +1,7 @@
-from typing import List, Dict, Optional, Tuple
 from functools import lru_cache
+from typing import Dict
+from typing import List
+from typing import Tuple
 
 
 def jolt_differences(jolt_list: List[int]) -> Dict[int, int]:
@@ -13,8 +15,8 @@ def jolt_differences(jolt_list: List[int]) -> Dict[int, int]:
 
 
 def jolt_arrangements(jolt_list: List[int]) -> int:
-    @lru_cache
-    def explode_for_reasons(onehot_list: Tuple[bool]) -> int:
+    @lru_cache(maxsize=None)
+    def explode_for_reasons(onehot_list: Tuple[bool, ...]) -> int:
         if onehot_list == (True,):
             return 1
         elif len(onehot_list) == 0:

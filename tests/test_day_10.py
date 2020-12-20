@@ -1,4 +1,5 @@
-from adventofcode_2020.day_10 import jolt_differences, jolt_arrangements
+from adventofcode_2020.day_10 import jolt_arrangements
+from adventofcode_2020.day_10 import jolt_differences
 
 
 def test_part_1():
@@ -72,22 +73,3 @@ def test_part_2():
     ]
     result = jolt_arrangements(input_2)
     assert result == 19208
-    # a = [0, 1, 2, 4, 5, 6, 9]
-    # diffs = [1, 1, 2, 1, 1, 3]
-    # 0, 1, 2, 4 + 5
-    # 0, 1, 4 + 5
-    # 0, 2, 4 + 5
-    # (0, 4) + 5
-    # (0, 3) + 5
-    # (0, 2) + 5
-
-    # to add k
-    # p(0, k) = p(0, k-3) + p(0, k-2) + p(0, k-1)
-    # p(0,<0) = 0
-    # p(0, 0) = 1
-    # p(0, 1) = [(0, 1)] = 1
-    # p(0, 2) = [(0, 1, 2), (0, 2)] = 2
-    # p(0, 3) = []
-    # p(0, 4) = [(0, 1, 4), (0, 1, 2, 4), (0, 2, 4)] = 3
-    # p(0, 5) = [(0, 1, 4, 5), (0, 1, 2, 4, 5), (0, 2, 4, 5), (0, 1, 2, 5), (0, 2, 5)] = 5
-    # p(0, 6) = [(0, 1, 4, 6), (0, 1, 2, 4, 6), (0, 2, 4, 6), (0, 1, 4, 5, 6), (0, 1, 2, 4, 5, 6), (0, 2, 4, 5, 6), (0, 1, 2, 5, 6), (0, 2, 5, 6)] = 8
