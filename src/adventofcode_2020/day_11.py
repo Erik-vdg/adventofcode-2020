@@ -1,6 +1,10 @@
-from typing import Dict, List, Iterator, Mapping
-import attr
 from enum import Enum
+from typing import Dict
+from typing import Iterator
+from typing import List
+from typing import Mapping
+
+import attr
 
 
 @attr.s(frozen=True)
@@ -10,12 +14,6 @@ class Coordinate:
 
     def __add__(self, other: "Coordinate") -> "Coordinate":
         return self.__class__(x=self.x + other.x, y=self.y + other.y)
-
-    def __mul__(self, other: int) -> "Coordinate":
-        return self.__class__(x=self.x * other, y=self.y * other)
-
-    def __rmul__(self, other: int) -> "Coordinate":
-        return self.__class__(x=self.x * other, y=self.y * other)
 
 
 class SeatStatus(Enum):
@@ -37,9 +35,6 @@ class SeatMap(Mapping[Coordinate, SeatStatus]):
             for col, thing in enumerate(line):
                 seat_dict[Coordinate(row, col)] = SeatStatus(thing)
         return cls(seat_dict)
-
-    # def __contains__(self, item: Coordinate) -> bool:
-    #     return item in self.__seat_dict
 
     def __getitem__(self, item: Coordinate) -> SeatStatus:
         return self.__seat_dict.get(item, SeatStatus.VACANT)

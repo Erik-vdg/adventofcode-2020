@@ -1,5 +1,9 @@
-from adventofcode_2020.day_11 import SeatStatus, SeatMap, Ruleset, Coordinate
 import pytest
+
+from adventofcode_2020.day_11 import Coordinate
+from adventofcode_2020.day_11 import Ruleset
+from adventofcode_2020.day_11 import SeatMap
+from adventofcode_2020.day_11 import SeatStatus
 
 
 @pytest.fixture
