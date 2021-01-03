@@ -1,8 +1,6 @@
-from adventofcode_2020.day_12 import (
-    Bearing,
-    process_nav_instructions_p1,
-    process_nav_instructions_p2,
-)
+from adventofcode_2020.day_12 import Bearing
+from adventofcode_2020.day_12 import process_nav_instructions_p1
+from adventofcode_2020.day_12 import process_nav_instructions_p2
 from adventofcode_2020.utils import Coordinate
 
 

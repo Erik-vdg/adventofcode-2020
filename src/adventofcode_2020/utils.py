@@ -1,5 +1,8 @@
+from math import cos
+from math import pi
+from math import sin
+
 import attr
-from math import sin, cos, pi
 
 
 @attr.s(frozen=True)

@@ -1,7 +1,10 @@
 from enum import Enum
+from typing import Callable
+from typing import Dict
+from typing import List
+from typing import Tuple
 
 from adventofcode_2020.utils import Coordinate
-from typing import Tuple, Dict, Callable, List
 
 
 class Bearing(Enum):
