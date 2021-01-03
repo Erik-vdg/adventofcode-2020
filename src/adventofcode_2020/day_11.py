@@ -4,16 +4,7 @@ from typing import Iterator
 from typing import List
 from typing import Mapping
 
-import attr
-
-
-@attr.s(frozen=True)
-class Coordinate:
-    x: int = attr.ib()
-    y: int = attr.ib()
-
-    def __add__(self, other: "Coordinate") -> "Coordinate":
-        return self.__class__(x=self.x + other.x, y=self.y + other.y)
+from adventofcode_2020.utils import Coordinate
 
 
 class SeatStatus(Enum):
@@ -158,4 +149,4 @@ if __name__ == "__main__":
         print(f"Part 1 Answer: {steady_seatmap_adjacent.count_occupied}")
 
         steady_seatmap_visible = Ruleset().apply_until_steady(seat_map, "visible")
-        print(f"Part 1 Answer: {steady_seatmap_visible.count_occupied}")
+        print(f"Part 2 Answer: {steady_seatmap_visible.count_occupied}")

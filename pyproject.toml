@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "adventofcode-2020"
-version = "0.11.0"
+version = "0.12.0"
 description = "Advent Of Code 2020"
 authors = ["Erik van der Goetz <erik.vandergoetz@gmail.com>"]
 license = "MIT"
